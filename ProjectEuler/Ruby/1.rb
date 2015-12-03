@@ -3,7 +3,7 @@ def sum(n, b)
 	b*(1+n)*n/2
 end
 
-gets.to_i.downto(1) do
+gets.to_i.times do
 	n = gets.to_i
 	puts sum(n,3) + sum(n,5) - sum(n,15)
 end
